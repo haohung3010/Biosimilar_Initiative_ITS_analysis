@@ -8,12 +8,15 @@ We utilized five BC administrative healthcare databases held and linked by Popul
 ### Study population
 People with IA were identified from 2013 to 2022 using a published identification algorithm. Briefly, to be classified as IA, an individual needed to have at least one hospital record or three physician visits (at least one specialist visit) with an ICD-9 or ICD-10-CA diagnosis code for an IA condition within a two-year period based on published algorithms. People with at least two prescriptions of adalimumab, infliximab or etanercept covering at least 84 non-overlapping days in a 12-month period before the first day of the policy switch period for a specific drug were included in the study cohort. Members of the cohort were observed from their index date of diagnosis, or January 1, 2015, whichever was earliest, until their death, last recorded date in administrative databases, or December 31, 2022, whichever was earliest. 
 
+![Demographic Table](https://github.com/haohung3010/images_repos/blob/main/BI_ITS_analysis/Demographic%20Table.png)
+
 ### Healthcare resource utilization rate
 The four major components of HCRU were visits to hospitals, physicians and emergency departments, and concomitant drug use. 
 - Hospital and ED visits were categorized as ‘related‘ or ‘unrelated to switching’ based on the ICD-9 and ICD-10 codes associated with IA
 - Physician visits were classified into two categories of “Specialist” (rheumatologist) and “Other” visits (e.g. internal medicine, general practitioner).
 - Concomitant drug use was measured as the number of prescribed drug days for concomitant drugs (i.e. one drug-day is one prescribed day for one concomitant drug). Concomitant drugs included conventional synthetic disease-modifying antirheumatic drugs (csDMARDs), non-steroidal anti-inflammatory drugs (NSAIDs), and oral corticosteroids
 Patient-level data was aggregated into the monthly data by splitting any prolonged hospitalization or prescriptions (> 1 day) evenly over the service use period.
+
 ![Monthly Rate](https://github.com/haohung3010/images_repos/blob/main/BI_ITS_analysis/Monthly%20Rate.png)
 
 ### Healthcare resource utilization cost 
@@ -23,6 +26,7 @@ The mean cost of each component of HCRU were costed from the public healthcare p
 - The reimbursement amount from the MSP database was used for fee-for-service physicians during a visit.
 - Concomitant drug use was costed by combining the amount paid by PharmaCare and the out-of-pocket costs to individuals.
 Mean care costs for individuals were calculated by dividing the total monthly cost of the healthcare resource for the cohort by the yearly cohort size. All costs were converted to 2022 Canadian Dollars.
+
 ![Cost Breakdown](https://github.com/haohung3010/images_repos/blob/main/BI_ITS_analysis/Cost%20Breakdown.png)
 
 ### Interrupted time series (ITS) analysis
