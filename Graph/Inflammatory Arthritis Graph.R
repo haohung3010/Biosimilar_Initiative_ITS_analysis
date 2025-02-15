@@ -1,25 +1,25 @@
-# ia_its_data<-cbind(total_IJD,fitted(model_total_IJD))
-# ia_its_eq<-model_total_IJD$coef
-# 
-# write.csv(ia_its_data,file="R:/working/hdang_AnalysisFiles/R_Output/ia_its_data.csv")
-# write.csv(ia_its_eq,file="R:/working/hdang_AnalysisFiles/R_Output/ia_its_eq.csv")
-# write.csv(IJD_total_cost_breakdown,file="R:/working/hdang_AnalysisFiles/R_Output/ia_cost_breakdown.csv")
-# 
-# write.csv(msp_rate_ETAINF_IJD_SP1,file="R:/working/hdang_AnalysisFiles/R_Output/msp_rate_ETAINF_sp.csv")
-# write.csv(msp_rate_ETAINF_IJD_Oth1,file="R:/working/hdang_AnalysisFiles/R_Output/msp_rate_ETAINF_oth.csv")
-# write.csv(nacrs_visit_ETAINF_IJD_related1,file="R:/working/hdang_AnalysisFiles/R_Output/nacrs_ETAINF_rel.csv")
-# write.csv(nacrs_visit_ETAINF_IJD_unrelated1,file="R:/working/hdang_AnalysisFiles/R_Output/nacrs_ETAINF_unrel.csv")
-# write.csv(dad_days_ETAINF_IJD_related1,file="R:/working/hdang_AnalysisFiles/R_Output/dad_ETAINF_rel.csv")
-# write.csv(dad_days_ETAINF_IJD_unrelated1,file="R:/working/hdang_AnalysisFiles/R_Output/dad_ETAINF_unrel.csv")
-# write.csv(pn_count_IJD_ETAINF,file="R:/working/hdang_AnalysisFiles/R_Output/pn_ETAINF.csv")
-# 
-# write.csv(msp_rate_ADA_IJD_SP,file="R:/working/hdang_AnalysisFiles/R_Output/msp_rate_ADA_sp.csv")
-# write.csv(msp_rate_ADA_IJD_Oth,file="R:/working/hdang_AnalysisFiles/R_Output/msp_rate_ADA_oth.csv")
-# write.csv(nacrs_visit_ADA_IJD_related,file="R:/working/hdang_AnalysisFiles/R_Output/nacrs_ADA_rel.csv")
-# write.csv(nacrs_visit_ADA_IJD_unrelated,file="R:/working/hdang_AnalysisFiles/R_Output/nacrs_ADA_unrel.csv")
-# write.csv(dad_days_ADA_IJD_related,file="R:/working/hdang_AnalysisFiles/R_Output/dad_ADA_rel.csv")
-# write.csv(dad_days_ADA_IJD_unrelated,file="R:/working/hdang_AnalysisFiles/R_Output/dad_ADA_unrel.csv")
-# write.csv(pn_count_IJD_ADA,file="R:/working/hdang_AnalysisFiles/R_Output/pn_ADA.csv")
+ia_its_data<-cbind(total_IJD,fitted(model_total_IJD))
+ia_its_eq<-model_total_IJD$coef
+
+write.csv(ia_its_data,file="R:/working/hdang_AnalysisFiles/R_Output/ia_its_data.csv")
+write.csv(ia_its_eq,file="R:/working/hdang_AnalysisFiles/R_Output/ia_its_eq.csv")
+write.csv(IJD_total_cost_breakdown,file="R:/working/hdang_AnalysisFiles/R_Output/ia_cost_breakdown.csv")
+
+write.csv(msp_rate_ETAINF_IJD_SP1,file="R:/working/hdang_AnalysisFiles/R_Output/msp_rate_ETAINF_sp.csv")
+write.csv(msp_rate_ETAINF_IJD_Oth1,file="R:/working/hdang_AnalysisFiles/R_Output/msp_rate_ETAINF_oth.csv")
+write.csv(nacrs_visit_ETAINF_IJD_related1,file="R:/working/hdang_AnalysisFiles/R_Output/nacrs_ETAINF_rel.csv")
+write.csv(nacrs_visit_ETAINF_IJD_unrelated1,file="R:/working/hdang_AnalysisFiles/R_Output/nacrs_ETAINF_unrel.csv")
+write.csv(dad_days_ETAINF_IJD_related1,file="R:/working/hdang_AnalysisFiles/R_Output/dad_ETAINF_rel.csv")
+write.csv(dad_days_ETAINF_IJD_unrelated1,file="R:/working/hdang_AnalysisFiles/R_Output/dad_ETAINF_unrel.csv")
+write.csv(pn_count_IJD_ETAINF,file="R:/working/hdang_AnalysisFiles/R_Output/pn_ETAINF.csv")
+
+write.csv(msp_rate_ADA_IJD_SP,file="R:/working/hdang_AnalysisFiles/R_Output/msp_rate_ADA_sp.csv")
+write.csv(msp_rate_ADA_IJD_Oth,file="R:/working/hdang_AnalysisFiles/R_Output/msp_rate_ADA_oth.csv")
+write.csv(nacrs_visit_ADA_IJD_related,file="R:/working/hdang_AnalysisFiles/R_Output/nacrs_ADA_rel.csv")
+write.csv(nacrs_visit_ADA_IJD_unrelated,file="R:/working/hdang_AnalysisFiles/R_Output/nacrs_ADA_unrel.csv")
+write.csv(dad_days_ADA_IJD_related,file="R:/working/hdang_AnalysisFiles/R_Output/dad_ADA_rel.csv")
+write.csv(dad_days_ADA_IJD_unrelated,file="R:/working/hdang_AnalysisFiles/R_Output/dad_ADA_unrel.csv")
+write.csv(pn_count_IJD_ADA,file="R:/working/hdang_AnalysisFiles/R_Output/pn_ADA.csv")
 
 write.csv(drug_bydate_uptake_IJD_sum,file="R:/working/hdang_AnalysisFiles/R_Output/drug_uptake.csv")
 
